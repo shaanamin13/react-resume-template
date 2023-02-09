@@ -17,7 +17,12 @@ export class Experience extends React.Component {
               { career.map(c => (
                 <Timeline key={c.company} time={c.period} title={c.title} icon={['fas', 'briefcase']} left="-7px">
                   <p>{c.company}</p>
-                  <div dangerouslySetInnerHTML={ { __html: c.description } } />
+                  {c.description.forEach((element: string) => {
+                    console.warn(element);
+                    <div>
+                      <p>{element}</p>
+                    </div>
+                  })}
                 </Timeline>
               ))}
 

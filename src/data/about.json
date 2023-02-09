@@ -1,7 +1,7 @@
 {
-  "username": "kien dang",
+  "username": "Shaan Amin",
   "avatar": "../assets/images/avatar-primary-bg.svg",
-  "objective": "<p>I am a Microsoft .NET developer with more than 5 years of experience in developing, testing, and implementing webservices, microservices and web-based applications using Microsoft technologies, MS SQL Server, scheduled tasks, TFS and Azure services. <\/p> <p> I am ambitious and hardworking, innovative and creative, very flexible and adaptable. I am also a quick learner and master new technologies with ease; reliable team player as well as an independent individual. <\/p>",
+  "objective": "<p>I am a Software Devlopment Engineer with more than 6 years of experience in developing sofware for web applications, games, and more <\/p> <p> I am ambitious, hardworking and flexible in my work. I have a positive attitude to quickly learn new technologies with ease. Above all, I am reliable and collaborative team player.<\/p><p>Due to my background from game development, to developing as a consultant, to a large company, I am an self-succifient engineer who can quickly onboard onto any team.<\/p>",
   "resumeUrl": "#",
   "skills": [
     {
@@ -27,28 +27,10 @@
   ],
   "statistics": [
     {
-      "number": 28,
-      "title": "Open-source projects",
+      "number": 6,
+      "title": "Years of Professional Software Experience",
       "iconPrefix": "fab",
       "iconName": "osi"
-    },
-    {
-      "number": 59,
-      "title": "Projects completed",
-      "iconPrefix": "fas",
-      "iconName": "tasks"
-    },
-    {
-      "number": 3285,
-      "title": "Cup of coffee",
-      "iconPrefix": "fas",
-      "iconName": "coffee"
-    },
-    {
-      "number": 2,
-      "title": "Publications",
-      "iconPrefix": "far",
-      "iconName": "newspaper"
     }
   ]
 }

@@ -1,20 +1,21 @@
 {
-  "firstName": "kien",
-  "middleName": ".",
-  "lastName": "dang",
+  "firstName": "Shaan",
+  "middleName": " ",
+  "lastName": "Amin",
   "avatar": "\/images\/avatar.svg",
   "titles": [
-    "Microsoft .NET developer",
-    "Front-End developer",
-    "Data scientist"
+    "Software Development Engineer",
+    "Full-Stack Developer",
+    "Front-End Developer",
+    "Back-End Developer"
   ],
   "socialNetworks": [
     {
-      "link": "https://github.com/kien-dang/react-resume-template",
+      "link": "https://github.com/shaanamin13",
       "iconName": "faGithub"
     },
     {
-      "link": "https://www.linkedin.com/in/trung-kien-dang",
+      "link": "https://www.linkedin.com/in/shaanamin/",
       "iconName": "faLinkedin"
     }
   ]

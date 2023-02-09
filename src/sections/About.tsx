@@ -19,7 +19,7 @@ export class About extends React.Component {
               <Col md={12}>
                 <div className="text-center mb-3">
                   {/* <img src={about.avatar} alt="kiendang" style={{ width: '150px' }} /> https://www.npmjs.com/package/copy-webpack-plugin */}
-                  <img src={require('../assets/images/avatar-primary-bg.svg')} alt="kiendang" style={{ width: '150px' }} />
+                  <img src='../assets/images/profile_pic.jpg' alt="shaanamin" style={{ width: '150px' }} />
                 </div>
               </Col>
               <Col md={12}>
@@ -36,7 +36,7 @@ export class About extends React.Component {
                   <div dangerouslySetInnerHTML={ { __html: about.objective } } />
                   <div className="mt-3 mb-3">
                     {/* <Button variant="kd">Download CV</Button> */}
-                    <a href="https://github.com/kien-dang/react-resume-template" className="btn btn-kd" target="_blank" rel="noopener noreferrer">View on Github</a>
+                    <a href="https://github.com/shaanamin13" className="btn btn-kd" target="_blank" rel="noopener noreferrer">View on Github</a>
                   </div>
                 </Col>
                 <Col md={4}>
@@ -49,11 +49,11 @@ export class About extends React.Component {
           </Col>
         </Row>
 
-        <Row className="mt-5">
+        <Row className="mt-12 pt-10" align="center">
           {about.statistics.map(statistic => (
             <Counter
               key={statistic.title}
-              className="col-md-3 col-sm-6"
+              className="col-md-12 col-sm-12"
               description={statistic.title}
               count={statistic.number}
               icon={[statistic.iconPrefix as IconPrefix, statistic.iconName as IconName]} />
